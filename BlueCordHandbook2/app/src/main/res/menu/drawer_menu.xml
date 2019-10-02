@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_message"
+            android:title="Welcome Guide" />
+        <item android:title="Skills">
+            <menu>
+                <item
+                    android:id="@+id/nav_abrazare"
+                    android:icon="@drawable/ic_message"
+                    android:title="Abrazare" />
+                <item
+                    android:id="@+id/nav_rapier"
+                    android:icon="@drawable/ic_message"
+                    android:title="Rapier" />
+                <item
+                    android:id="@+id/nav_rapier_dagger"
+                    android:icon="@drawable/ic_message"
+                    android:title="Rapier &amp; Dagger" />
+                <item
+                    android:id="@+id/nav_sidesword"
+                    android:icon="@drawable/ic_message"
+                    android:title="Sidesword" />
+                <item
+                    android:id="@+id/nav_knowledge"
+                    android:icon="@drawable/ic_message"
+                    android:title="Knowledge" />
+            </menu>
+        </item>
+
+        <item android:title="Examination">
+            <menu>
+                <item
+                    android:id="@+id/demonstration"
+                    android:icon="@drawable/ic_message"
+                    android:title="Demonstration" />
+                <item
+                    android:id="@+id/forms"
+                    android:icon="@drawable/ic_message"
+                    android:title="Forms" />
+                <item
+                    android:id="@+id/combat"
+                    android:icon="@drawable/ic_message"
+                    android:title="Combat Assessment" />
+            </menu>
+        </item>
+        <group android:id="@+id/misc">
+            <item
+                android:id="@+id/spar_record"
+                android:icon="@drawable/ic_message"
+                android:title="Sparring Record" />
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_message"
+                android:title="Notes" />
+            <item
+                android:id="@+id/reading"
+                android:icon="@drawable/ic_message"
+                android:title="Recommended Reading" />
+        </group>
+
+    </group>
+</menu>
